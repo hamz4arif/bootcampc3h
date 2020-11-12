@@ -10,7 +10,7 @@ function App() {
       {/* <App1 name="hamza" />
       <Losers />
       <App2 /> */}
-      <h1>hello world</h1>
+      <h1>hello losers</h1>
     </>
   );
 }
