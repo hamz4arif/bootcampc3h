@@ -32,7 +32,7 @@ jobs:
           cmd: install
       - name: installing surge
         run: npm install -g surge
-      - name: make build file
+      - name: Creating build
         run: yarn build
       - name: Deploying on surge
         run: surge ./build bootcampc3h.surge.sh --token ${{secrets.SURGE_TOKEN}}
