@@ -1,10 +1,10 @@
-import react from 'react'
+
 
 function Losers() {
     return (
         <>
             <h1>Body</h1>
-    
+
         </>
     )
 }
