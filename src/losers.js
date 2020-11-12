@@ -6,12 +6,8 @@ function Losers() {
     return (
         <>
             {/* <App1 name="hamza arif"/> */}
-            <h1>Hamza</h1>
-            <h1>Noman</h1>
-            <h1>Suleman</h1>
-            <h1>Azam</h1>
-            <h1>haseeb</h1>
-            <h1>Usman</h1>
+            <h1>Body</h1>
+            
             <App2 />
         </>
     )
