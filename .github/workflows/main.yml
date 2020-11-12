@@ -30,9 +30,9 @@ jobs:
         uses: Borales/Actions-yarn@v2.1.0
         with:
           cmd: install
-      - name: make build file
-        run: yarn build
       - name: installing surge
         run: npm install -g surge
+      - name: make build file
+        run: yarn build
       - name: Deploying on surge
         run: surge ./build bootcampc3h.surge.sh --token ${{secrets.SURGE_TOKEN}}
