@@ -7,9 +7,10 @@ import App2 from './App2'
 function App() {
   return (
     <>
-      <App1 name="hamza" />
+      {/* <App1 name="hamza" />
       <Losers />
-      <App2 />
+      <App2 /> */}
+      <h1>hello world</h1>
     </>
   );
 }
