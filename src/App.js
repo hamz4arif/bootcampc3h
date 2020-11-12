@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import App1 from './App1';
 import Losers from './losers'
@@ -8,6 +7,8 @@ function App() {
   return (
     <>
       <App1 name="hamza" />
+      <Losers/>
+      <App2/>
     </>
   );
 }
